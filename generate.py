@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 import sugartensor as tf
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+
 import matplotlib.pyplot as plt
+plt.ioff()
 
 __author__ = 'buriburisuri@gmail.com'
 
